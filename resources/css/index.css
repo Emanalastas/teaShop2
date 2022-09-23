@@ -75,7 +75,7 @@ h2 {
 
 
 .teaMonth {
-    margin-top: 50px;
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -91,6 +91,29 @@ h2 {
     align-items: center;
 }
 .teaImage {
+    width: 300px;
+    height: 200px;
+}
+
+.locations {
+    background: url("../images/img-locations-background.jpg");
+    text-align: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    margin: 100px 0;
+}
+
+.locationsBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h3, box h4 {
     max-width: 300px;
-    max-height: 200px;
+    max-height: 275px;
 }
